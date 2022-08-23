@@ -706,6 +706,10 @@ h3{
     width: 50%;
   
   }
+
+  .column-smart img{
+    border-radius: 30px;
+  }
   
   /* Clear floats after the columns */
   .row-smart:after {
