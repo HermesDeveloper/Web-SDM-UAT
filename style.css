@@ -656,7 +656,10 @@ h3{
 }
 
 .center-column{
-    text-align: center;
+  
+
+ 
+  text-align: center;
 
 
  
@@ -689,3 +692,27 @@ h3{
   text-align: right;
  
   }
+
+
+  .row-center{
+
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+
+  .column-smart {
+    float: left;
+    width: 50%;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row-smart:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
