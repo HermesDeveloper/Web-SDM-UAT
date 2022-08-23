@@ -1,0 +1,117 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Digital Management</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Blogs</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+<div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>LIVERPOOL 1-1 CRYSTAL PALACE</h2>
+        <h5>DARWIN NUNEZ GETS SENT OFF FOR A HEADBUTT ON HIS HOME DEBUT AS HOSTS ARE HELD, Aug 16, 2022</h5>
+        <div class="fakeimg"><img src="blog-img/A0001.png"></div>
+        <p>Liverpool have recorded two points in their opening two Premier League matches of the 2022-23
+             campaign after playing out a 1-1 draw against Crystal Palace. Wilfried Zaha's first-half 
+             goal was cancelled out by Luis Diaz in the second, but the match will be best remembered for
+              Darwin Nunez headbutting Joachim Andersen on his home debut which resulted in a straight 
+              red card.
+        </p>
+      </div>
+      <div class="card">
+        <h2>JUVENTUS 3-0 SASSUOLO</h2>
+        <h5>ANGEL DI MARIA SCORES ON HIS SERIE A DEBUT AS JUVENTUS BEAT SASSUOLO IN STYLE, Aug 16, 2022</h5>
+        <div class="fakeimg" ><img src="blog-img/A0002.png"></div>
+        <p>Angel Di Maria had a debut to remember for Juventus as he opened the scoring for his new 
+            club on his debut in their Serie A opener. It was a straightforward night for Juve in 
+            Turin as Dusan Vlahovic scored a further two goals for the hosts. He made it 2-0 
+            just before half-time from the penalty spot before he wrapped up the victory in the
+             51st minute with an easy goal set up by Di Maria.</p>
+      </div>
+      <div class="card">
+        <h2>MERCEDES DRIVER LEWIS HAMILTON</h2>
+        <h5>AHEAD OF 300TH GRAND PRIX: FERNANDO ALONSO WAS MY TOUGHEST OPPONENT, Aug 16, 2022</h5>
+        <div class="fakeimg"><img src="blog-img/A0003.png"></div>
+        <p>Ahead of his 300th Grand Prix in a career that has seen him win a record-equalling seven
+             Formula One world championships, Mercedes driver Lewis Hamilton has paid tribute to 
+             Fernando Alonso. The 41-year-old Spaniard was Hamilton's team-mate for a single season 
+             at McLaren in 2007 before the pair separated. "I would say out of pure pace I think… 
+             I always say [my toughest opponent] is Fernando."
+
+        </p>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>About Me</h2>
+        <div class="fakeimg" style="height:100px;">Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      </div>
+      <div class="card">
+        <h3>Popular Post</h3>
+        <div class="fakeimg">Image</div><br>
+        <div class="fakeimg">Image</div><br>
+        <div class="fakeimg">Image</div>
+      </div>
+      <div class="card">
+        <h3>Follow Me</h3>
+        <p>Some text..</p>
+      </div>
+    </div>
+  </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+     
+        <p>made with <i class="fa fa-heart-o"></i> Love and Khanaphoz</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
