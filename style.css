@@ -40,8 +40,33 @@ nav img{
     display: inline-block;
     padding: 8px 12px;
     position: relative;
+   
 }
 
+.dropdown_menu{
+    display: none;
+}
+
+.nav-links ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    text-align: left;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+  
+}
+
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+
+
+.dropdown_menu ul li{
+
+    padding:  10px;
+}
 
 .nav-links ul li a{
     color: rgb(22, 33, 64);
@@ -589,3 +614,5 @@ h3{
     text-align:center;
     width:100%;
 }
+
+
