@@ -391,18 +391,65 @@ h3{
 
 .footer{
     width: 100%;
+    height: auto;
     text-align: center;
-    padding: 30px 0;
-    background: rgb(247, 244, 244);
-}
-.footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
-    font-weight: 600;
+    padding-top: 30px;
+    background: rgb(0, 0, 0);
+    color: #fff;
 }
 
-.icons .fa{
-    color: #3010e9;
+
+.footer h3{
+ 
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    line-height: 1rem;
+}
+
+.footer p{
+    max-width: auto;
+    margin-top: 8px;
+    line-height: 14px;
+    font-size: 14px;
+  
+}
+
+
+.footer .socials{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 3rem 0;
+  
+}
+
+.footer .socials li{
+    margin: 0 10px;
+   
+ }
+ 
+.footer .socials a{
+     text-decoration: none;
+     color: #fff;
+   
+ }
+
+.footer .socials a i{
+     font-size:  1.1rem;
+     transition: color .4s ease;
+  
+}
+
+.footer .socials a:hover i{
+   color: #A7AABC;
+}
+
+
+
+.icons .fa-brands{
+    color: #edf0f1;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
