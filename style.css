@@ -203,7 +203,7 @@ p{
 
 .course-col{
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #fff7d6;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -263,7 +263,7 @@ h3{
 }
 
 .layer:hover{
-    background: rgba(226, 0, 0, 0.7);
+    background: #00c6c0;
 }
 
 .layer h3{
@@ -394,7 +394,7 @@ h3{
     height: auto;
     text-align: center;
     padding-top: 30px;
-    background: rgb(0, 0, 0);
+    background: #737687;
     color: #fff;
 }
 
@@ -412,6 +412,7 @@ h3{
     margin-top: 8px;
     line-height: 14px;
     font-size: 14px;
+    color: #fff;
   
 }
 
@@ -507,53 +508,10 @@ h3{
 
 */
 
-.about-us{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
 
-.about-col{
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
 
-.about-col h1{
-    padding-top: 0;
-}
+/* ---- Team Member  ---- */
 
-.about-col p{
-    padding: 15px 0 25px;
-}
-
-.hero-btn.red-btn{
-    border: 1px solid #fe3347;
-    background: transparent;
-    color: #fe3347;
-}
-
-.hero-btn.red-btn:hover{
-    border: 1px solid #fe3347;
-    background: #fe3347;
-    color: #fff;
-}
-
-.hero-btn.red-btn::after{
-    background: #fe3347;
-}
-
-.hero-btn.red-btn::before{
-    background: #fe3347;
-}
-
-.content-image{
-    flex-basis: 50%;
-}
-
-.about-col img{
-    width: 100%;
-}
 
 
 /*---------- Blog Page -------------*/
