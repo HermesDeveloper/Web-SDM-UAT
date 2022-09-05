@@ -100,7 +100,7 @@ nav img{
 }
 
 .text-box h1{
-    font-size: 62px;
+    font-size: 65px;
 }
 
 
@@ -143,18 +143,14 @@ nav .fa{
   }
 
 
-  @media only screen and (min-width: 724px) and (orientation:portrait) {
+  @media only screen and (min-width: 640px) and (orientation:portrait) {
     /* For portrait layouts only */
     nav .fa-bars{
         display: none;
     }
   }
 
-/*
-nav .fa-bars{
-    visibility: hidden;
-}
-*/
+
 
 @media(max-width: 700px)
 {
@@ -506,7 +502,7 @@ h3{
     margin-top: 100px;
   /*  animation:  slide-up 5s;  */
     font-weight: bold;
-    font-size: 60px;
+    font-size: 48px;
     text-transform: uppercase;
     
 }
