@@ -812,6 +812,20 @@ h3{
 
 }
 
+@media(max-width: 700px)
+{
+    .blog-container .blog-card .blog-contentBx .blog-content h3{
+
+        font-size: 0.8em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    
+
+    }
+}
+
+
+
 .blog-container .blog-card .blog-contentBx .blog-content p{
     font-size: 1em;
     line-height: 1.4em;
