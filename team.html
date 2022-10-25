@@ -1,0 +1,194 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Digital Management</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/c3536ad498.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" width="100" height="56"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="team.html">TEAM</a></li>
+                    <li><a href="service.html">SERVICE</a></li>
+                    <li><a href="news.html">NEWS</a></li>
+                    <li><a href="explore.html">EXPLORE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>   
+        <h1>Our team</h1>
+        
+            
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="team-us">
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="images/team01.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Somphob Pinyolapha</h3>
+            <div class="textIcon">
+                <h4>Founder and CEO</h4>
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+                       
+                   
+             </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="images/team03.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>Wichuda Maneenatthakit</h3>
+            <div class="textIcon">
+                <h4>General Manager</h4>
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="images/team02.png" alt="">
+            </div>
+        </div>
+        <div class="content">
+             <h3>Parinya Thajai</h3>
+            <div class="textIcon">
+                <h4>Marketing Manager</h4>
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="images/team04.png" alt="">
+            </div>
+        </div>
+
+        <div class="content">
+            <h3>Wacharachai Chookaew</h3>
+            <div class="textIcon">
+                <h4>Project Engineer</h4>
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+   
+
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="images/team06.png" alt="">
+            </div>
+        </div>
+
+        <div class="content">
+            <h3>Saichon Tangpueng</h3>
+            <div class="textIcon">
+                <h4>Technical Manager</h4>
+                <a href="#">
+                   <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="circle">
+            <div class="imgBox">
+                <img src="images/team05.png" alt="">
+            </div>
+        </div>
+
+        <div class="content">
+            <h3>Kotchamol Rueangwattanametha</h3>
+            <div class="textIcon">
+                <h4>PR Manager </h4>
+                <a href="#">
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+        
+ 
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+
+    <div class="icons">
+    <h3> Follow us</h3>
+    <p>Smart Digial Management Social Media</p>
+   
+        <ul class="socials">
+        <li><a href="https://web.facebook.com/sdmsmartdm" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+       
+        <li><a href="https://www.instagram.com/sdmsmartdm/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://lin.ee/p4tJXBL" target="_blank"><i class="fa-brands fa-line"></i></a></li>
+        <li><a href="https://www.youtube.com/watch?v=K9Y2tGYlNNk&t=17s" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+       </ul>
+    </div>
+    <div class="footer-bottom">
+    <p> <i class="fa-solid fa-code"></i> copyright  &copy;2022 SDM. designed by Khanaphoz</p></a>
+    </div>     
+</section>    
+
+
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

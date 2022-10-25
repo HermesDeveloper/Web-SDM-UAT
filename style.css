@@ -510,7 +510,7 @@ h3{
 }
 
 
-/*--------------- About Us Page --------------*/
+/*--------------- ABOUT and TEAM Us Page --------------*/
 .sub-header{
     height: 20vh;
     width: 100%;
@@ -571,11 +571,55 @@ h3{
 
 */
 
+/*--------------- About Us Page --------------*/
+
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.hero-btn.red-btn{
+    border: 1px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+.hero-btn.red-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    color: #fff;
+}
+.hero-btn.red-btn::after{
+    background: #f44336;
+}
+.hero-btn.red-btn::before{
+    background: #f44336;
+}
+.content-image{
+    flex-basis: 50%;
+}
+.about-col img{
+    width: 100%;
+}
+
 
 
 /* ---- Team Card Member  ---- */
 
-.about-us{ 
+.team-us{ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -698,9 +742,152 @@ h3{
 }
 
 
+/*---------- NEWs Page -------------*/
+.news-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+    margin-top: 200px;
+
+}
+
+@media(max-width: 700px)
+{
+    .news-content{
+        margin-top: 100px;
+    }
+    
+
+}
+
+.news-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-heading span{
+    color: #f44336;
+
+}
+
+.news-heading h3{
+    font-size: 2.4rem;
+    color: #0c062e;
+    font: 600;
+}
+
+.news-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.news-box{
+    width: 350px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.news-img{
+    width: 100%;
+    height: auto;
+}
+
+.news-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.news-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+
+.news-text .news-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+
+.news-text .news-title:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
+
+.news-text p{
+    color: #9b9b9b;
+    font-size:  0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px
+}
 
 
+.news-text a{
+    color: #0f0f0f;
+}
 
+.news-text a:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+
+
+}
+
+.news-read-more-btn{
+    color: #0984e3;
+}
+
+
+.news-read-more{
+    display: none;
+}
+
+.news-read-more--show{
+    display: inline;
+}
+
+@media(max-width:1250px){
+    .news-box{
+        width: 300px;
+    }
+}
+
+@media(max-width:1100px){
+    .news-box{
+        width: 70%;
+    }
+}
+
+@media(max-width:550px){
+    .news-box{
+        margin: 20px 10px;
+        width: 100%;
+    }
+
+    #news{
+        padding: 20px;
+    }
+
+}
 /*---------- Blog Page -------------*/
 
 .blog-content{
@@ -833,6 +1020,9 @@ h3{
 
 
 }
+
+
+
 
 /*-------------- Contact Page ---------------*/
 
